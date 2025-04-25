@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.home-wrapper {
+  height: 100vh;
+  background-image: url('/assets/images/paper-texture.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+}
+
+.home-content {
+  text-align: center;
+  background: rgba(255,255,255,0.9);
+  padding: 3rem;
+  border: 2px dashed #111;
+  box-shadow: 8px 8px 20px rgba(0,0,0,0.2);
+}
+
+.home-content h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+
+.home-content h1 span {
+  background: #000;
+  color: #fff;
+  padding: 0 0.4em;
+}
+
+.home-sub {
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.enter-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  border: 1px solid #111;
+  background: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  color: #111;
+}
+
+.enter-button:hover {
+  background: #111;
+  color: #fff;
+}
